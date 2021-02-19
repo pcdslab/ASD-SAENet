@@ -15,8 +15,8 @@ Fahad Almuqhim, and Fahad Saeed (2021) **ASD-SAENet: Sparse Autoencoder for dete
 
 ## Software requirements
 
-- Python version 3.5 or above
-- Pytorch version 0.4.1
+- Python version 3.7 or above
+- Pytorch version 1.5.0
 - CUDA version 10 or above
 
 # Parameter setting
