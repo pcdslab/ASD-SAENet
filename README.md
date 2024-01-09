@@ -20,5 +20,13 @@ Fahad Almuqhim, and Fahad Saeed (2021) **ASD-SAENet: Sparse Autoencoder for dete
 - CUDA version 10 or above
 
 # Parameter setting
-
-- It will be updated once the code is avaliable -
+- folds: the k value for k-fold cross-validation
+- iter: number of iteration to run the training, and testing
+- epochs: number of epochs to train the model
+- pretrain: number of iterations to pre-tarin the SAE with the classifier before fine-tuning the classifier.
+- center: which center to run, if None is given, the whole dataset will be the input.
+- result: 1 to write the results in a file, 0 for not
+- Example:
+````
+python main.py --folds=5 --iter=10 --epochs=30 --pretrain=20 --center='NYU' --result=1
+````
