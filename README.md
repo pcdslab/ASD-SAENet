@@ -19,7 +19,7 @@ Fahad Almuqhim, and Fahad Saeed (2021) **ASD-SAENet: Sparse Autoencoder for dete
 - Pytorch version 1.5.0
 - CUDA version 10 or above
 ## Dataset
-The dataset used is pre-processed, and it can be downloaded from here:
+The fMRI data from the ABIDE-I dataset is already pre-processed, and it can be downloaded from:
 http://preprocessed-connectomes-project.org/abide/
 
 # Parameter setting
